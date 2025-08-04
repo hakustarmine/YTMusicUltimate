@@ -3,7 +3,7 @@ name: Build and Release YTMusicUltimate
 on:
   workflow_dispatch:
     inputs: 
-      ipa_url:
+      ipa_url:https://filebin.net/8z9cyachq7kgfiwh
         description: "URL to the decrypted IPA file"
         default: ""
         required: true
